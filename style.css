@@ -40,12 +40,36 @@ nav > a:hover {
     font-size: 20px;
     margin: 10px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.content {
+    width: 90%;
+    height: auto;
+    background-color: #E5EDF9;
+    box-shadow: grey 2px 2px 4px;
+    padding: 20px;
+    margin: 10px
+}
+
 a > img {
     height: 30px;
     width: auto;
 }
+
 .personal-img {
     height:200px;
     width: auto;
+}
+
+footer {
+    padding: 40px;
+    background-color: #6C91AD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
