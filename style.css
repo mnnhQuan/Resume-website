@@ -3,7 +3,40 @@
     padding: 0px;
 }
 
-.container {
+header {
+    display: flex;
+    padding: 20px;
+    background-color: #96CAF1;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 10px;
+    justify-content: space-around;
+    width: 50%;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    background-color: #6C91AD;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.containers {
     font-size: 20px;
     margin: 10px;
     padding: 20px;
